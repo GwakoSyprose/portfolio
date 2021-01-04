@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <nav className="navbar navbar-expand-lg navbar-light static-top">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="https://app.netlify.com/sites/syprosegwako-portfolio">
             <img src={Logo} className="img-fluid float-left" style={{
 
               height: 70
@@ -55,11 +55,11 @@ function App() {
 
           <div className="text-center p-3 icons">
             <span className="text-white"> © 2021 Copyright </span>
-            <a href="https://web.facebook.com/syprose.gwako/" className="fa fa-facebook"></a>
-            <a href="https://twitter.com/SyproseGwako" className="fa fa-twitter"></a>
-            <a href="https://www.linkedin.com/in/syprose-gwako-4a99b211b/" className="fa fa-linkedin"></a>
-            <a href="https://www.instagram.com/__gwako/" className="fa fa-instagram"></a>
-            <a href="https://join.skype.com/invite/h025ddywuB8N" className="fa fa-skype"></a>
+            <a href="https://web.facebook.com/syprose.gwako/"><i className="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/SyproseGwako"><i className="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/syprose-gwako-4a99b211b/"><i className="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/__gwako/"><i className="fa fa-instagram"></i></a>
+            <a href="https://join.skype.com/invite/h025ddywuB8N"><i className="fa fa-skype"></i></a>
 
           </div>
         </div >

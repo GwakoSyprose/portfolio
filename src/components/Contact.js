@@ -1,5 +1,9 @@
 
 function Contact() {
+    function showText(e) {
+        e.preventDefault()
+        alert('Thank you for contacting me! :)')
+    }
     return (
         <div className="container h-100 align-items-center mastheade4" id="contact">
 
@@ -10,11 +14,11 @@ function Contact() {
                         <div className="col-2"></div>
                         <div className="col-8">
                             <form action="">
-                                <input type="text" id="fname" name="fullname" placeholder="Fullname.." />
-                                <input type="text" id="email" name="email" placeholder="Email.." />
-                                <textarea id="message" name="message" placeholder="Write something.." style={{ height: 160 + 'px' }}></textarea>
+                                <input type="text" id="fname" name="fullname" placeholder="Fullname.." required />
+                                <input type="email" id="email" name="email" placeholder="Email.." required />
+                                <textarea id="message" name="message" required placeholder="Write something.." style={{ height: 160 + 'px' }}></textarea>
 
-                                <input type="submit" style={{ backgroundColor: "#EACEC5", }} value="Send" />
+                                <input type="submit" style={{ backgroundColor: "#EACEC5", }} onClick={showText} value="Send" />
                             </form>
                         </div>
                         <div className="col-2"></div>
