@@ -20,11 +20,11 @@ const goalsData = [
         goal: "Be the lead engineer on 1-2 projects in the next 5 years."
     },
     {
-        id: 5,
+        id: 6,
         goal: "Get comfortable with working with databases,data mining and analytics."
     },
     {
-        id: 6,
+        id: 7,
         goal: "Be better at problem solving."
     }
 ]
